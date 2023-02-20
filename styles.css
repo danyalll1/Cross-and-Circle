@@ -1,0 +1,29 @@
+body{
+    justify-content: center;
+    display: flex;
+}
+
+
+.container{
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(3, 200px);
+    grid-auto-rows: 200px;
+}
+
+.grid__tile{
+    border: solid white;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cross, .circle{
+    max-width: 200px;
+    max-height: 200px;
+}
+
